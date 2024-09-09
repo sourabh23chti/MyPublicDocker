@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.UI", "Registra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Policy.UI", "Policy.UI\Policy.UI.csproj", "{7EE6E3AD-26F2-4570-8C7C-0A737DB62ED5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.Test", "Registration.Test\Registration.Test.csproj", "{EBCFD50E-D6F2-4DE4-8A70-2AE995604A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Policy.Test", "Policy.Test\Policy.Test.csproj", "{FAAEDBE4-8BB2-4787-AA84-53BE84382778}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{7EE6E3AD-26F2-4570-8C7C-0A737DB62ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EE6E3AD-26F2-4570-8C7C-0A737DB62ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE6E3AD-26F2-4570-8C7C-0A737DB62ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCFD50E-D6F2-4DE4-8A70-2AE995604A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCFD50E-D6F2-4DE4-8A70-2AE995604A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCFD50E-D6F2-4DE4-8A70-2AE995604A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCFD50E-D6F2-4DE4-8A70-2AE995604A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAEDBE4-8BB2-4787-AA84-53BE84382778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAEDBE4-8BB2-4787-AA84-53BE84382778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAEDBE4-8BB2-4787-AA84-53BE84382778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAEDBE4-8BB2-4787-AA84-53BE84382778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
