@@ -12,6 +12,8 @@
         public string ConfirmPassword { get; set; }
         public string PostalCode { get; set; }
 
-        public string ReturnUrl { get; set; }
+        public string? ReturnUrl { get; set; }
+
+        public string? Title { get; set; }
     }
 }

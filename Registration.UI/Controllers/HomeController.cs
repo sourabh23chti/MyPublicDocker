@@ -15,6 +15,7 @@ namespace Registration.UI.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Title"] = "Register";
             return View();
         }
 
@@ -28,6 +29,12 @@ namespace Registration.UI.Controllers
             return View();
         }
 
+        public IActionResult RegistrationForm()
+        {
+
+            return View();
+
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
