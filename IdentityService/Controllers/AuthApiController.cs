@@ -10,6 +10,7 @@ namespace IdentityService.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register()
         {
+
             return Ok();
         }
 
@@ -17,6 +18,7 @@ namespace IdentityService.Controllers
 
         public async Task<IActionResult> Login()
         {
+
             return Ok();
         }
     }

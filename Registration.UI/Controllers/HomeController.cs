@@ -1,3 +1,4 @@
+using IdentityService.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Registration.UI.Models;
 using System.Diagnostics;
@@ -7,10 +8,12 @@ namespace Registration.UI.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly AuthApiController _controller;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,AuthApiController controller)
         {
             _logger = logger;
+            _controller = controller;
         }
 
         public IActionResult Index()
@@ -25,10 +28,12 @@ namespace Registration.UI.Controllers
         }
 
         public IActionResult Login()
-        {
-            return View();
+        { 
+         var result=  _controller.Login();
+          return View();
         }
 
+        
         public IActionResult RegistrationForm()
         {
 
