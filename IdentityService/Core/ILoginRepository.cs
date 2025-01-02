@@ -1,6 +1,10 @@
-﻿namespace IdentityService.Core
+﻿using IdentityService.Model;
+
+namespace IdentityService.Core
 {
-    public interface ILoginRepository
+    public interface ILoginRepository:IRepository<ApplicationUser>
     {
+        
+
     }
 }
